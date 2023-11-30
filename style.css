@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Kanit:ital@1&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.heading{
+    position: fixed !important;
+    width: 100%;
+    z-index: 100;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.d-flex i{
+    padding-right: 30px;
+}
+.d-flex{
+    margin-right: 80px;
+}
+.navbar-brand{
+    margin-left:80px;
+}
+li{
+    margin-left: 10px;
+}
+.first{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#100700, #1d0c02);
+}
+.container{
+margin-left: 100px !important;
+}
+.row h1{
+    text-align: justify;
+    color: white;
+    line-height: 1.5;
+    font-size: 60px;
+    margin-top: 150px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-family: 'Inter', sans-serif;
+}
+#btn{
+    width: 220px;
+    margin-top: 20px;
+}
+.outer{
+    margin-top: 50px !important;
+    height:250px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px; 
+    border: 4px solid #f9781d;
+}
+.white{
+    background-color: white;
+    border-radius: 8px;
+    height:200px;
+    width: 600px;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: start;
+    padding: 30px;
+}
+.line1{
+    display: flex;
+}
+.white span{
+    color: #f9781d;
+    line-height: 2;
+}
+.white h6{
+    font-weight: 600;
+    font-size: 40px;
+    color: #f9781d;
+}
+.small_line{
+    height: auto;
+    width: 2px;
+    background-color: #100700;
+    margin: 0px 20px;
+}
+.line1 button{
+    width: max-content;
+    margin-left: 10px;
+    font-size: large;
+}
+#music{
+    width: 240%;
+    margin-left: -200px;
+    margin-top: -20px;
+}
+#headphone{
+    width: 15%;
+    position: absolute;
+    top: 330px;
+    left: 500px;
+}
+#headphone { 
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); } 
+}
+
+.second{
+    width: 100%;
+    height: 100vh;
+}
+#collection{
+    overflow-wrap: inherit;
+}
+
+#hp1{
+    width: auto;
+    transform: skewX(0deg) skewY(5deg);
+    border-radius: 0 !important;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#card-img-top1{
+    transform: skewX(0deg) skewY(-5deg);
+    height: 300px;
+    width: 300px;
+}
+#card-body1{
+    text-align: left;
+    transform: skewX(0deg) skewY(-5deg);
+}
+#hp2{ 
+    width: auto;
+    transform: skewX(0deg) skewY(-5deg);
+    border-radius: 0 !important; 
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#card-img-top2{
+    transform: skewX(0deg) skewY(5deg);
+    height: 300px;
+    width: 300px;
+}
+#card-body2{
+    text-align: left;
+    transform: skewX(0deg) skewY(5deg);
+}
+.collection_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.collection_title h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-body h5{
+    font-weight: bolder;
+}
+.card-body p{
+    color: #f9781d;
+    font-size: larger;
+    font-weight: bold;
+}
+#btncollect{
+    color: black;
+    border-radius: 16px;
+    border: 4px solid #f9781d;
+}
+.collection_title{
+    width:auto;
+    height: 450px;
+}
+.offer{
+    padding-top: 30px;
+}
+.back{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 20px;
+    height: 200px;
+}
+.back img{
+    width: 200px;
+}
+.timer{
+    width:900px;
+    background-color: #b92e24;
+    border-radius: 20px;
+    height: 100px; 
+    margin: auto 100px;
+    padding: 0 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#timert{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: Metropolis!important;;
+    color: white;
+}
+.category{
+    margin: 0px 60px;
+}
+.features{
+    margin: 60px;    
+}
+.features img{
+    width: 30%;
+}
+.best{
+    margin: 60px;
+}
+.single_line{
+    display: flex;
+    justify-content: space-between;
+}
+#font{
+    font-family: 'Kanit', sans-serif;
+}
+.best #pid{
+    align-self:flex-end;
+    color: #2f5b96;
+    font-weight: bold;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.best .card-title{
+    background-color:#fcc50b;
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 2px solid white;
+    position: absolute;
+    top: 382px;
+    left: 40px;
+}
+.best img{
+    
+    width: 415px;
+    height:402px;
+    cursor: pointer;
+}
+.best .card-body{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+.best .card-text{
+    color: black;
+    font-size: medium;
+    display: inline-block;
+}
+#grey{
+    text-decoration: line-through;
+    color: #b2b9bf;
+    font-size: smaller;
+}
+#green{
+    color: #00c68c;
+    font-size: smaller;
+}
+#light{
+    font-size: smaller;
+    font-weight: 200;
+}
+.best button{
+    font-size: x-small;
+    position: absolute;
+    top: 480px;
+    right: 15px;
+}
+.circle1{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 440px;
+    right: 57px;
+}
+.circle2{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 440px;
+    right: 45px;
+}
+.combine p{
+    position: absolute;
+    top: 440px;
+    right: 20px;
+    color: black;
+    font-weight: 200;
+    font-size: small;
+}
+footer{
+    background-color: #2b3035;
+}
+footer .container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer i{
+    margin: 40px 20px;
+}
